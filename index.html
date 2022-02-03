@@ -20,39 +20,38 @@
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
-      <h1>Welcome!</h1>
       <nav class="nav container">
         <a href="#" class="nav__logo">Kareim</a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__Li">
-                <i class="uil uil-home"></i> Home
+              <a href="#home" class="nav__link">
+                <i class="uil uil-home nav__icon"></i> Home
               </a>
             </li>
             <li class="nav__item">
-              <a href="#user" class="nav__Li">
-                <i class="uil uil-user"></i> User
+              <a href="#user" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> User
               </a>
             </li>
             <li class="nav__item">
-              <a href="#skills" class="nav__Li">
-                <i class="uil uil-trophy"></i> Skills & Achievements
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-trophy nav__icon"></i> Skills & Achievements
               </a>
             </li>
             <li class="nav__item">
-              <a href="#services" class="nav__Li">
-                <i class="uil uil-briefcase"></i> Services
+              <a href="#services" class="nav__link">
+                <i class="uil uil-briefcase nav__icon"></i> Services
               </a>
             </li>
             <li class="nav__item">
-              <a href="#portfolio" class="nav__Li">
-                <i class="uil uil-scenery"></i> Portfolio
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
               </a>
             </li>
             <li class="nav__item">
-              <a href="#contact" class="nav__Li">
-                <i class="uil uil-envelope-add"></i> Contact Me
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-envelope-add nav__icon"></i> Contact Me
               </a>
             </li>
           </ul>
@@ -68,10 +67,63 @@
 
     <!--==================== MAIN ====================-->
     <main class="main">
-      <img src="./assets/img/astronot.gif" alt="astronot" />
-      <img src="./assets/img/rocket.gif" alt="rocket" />
+      <!-- <img src="./assets/img/astronot.gif" alt="astronot" />
+      <img src="./assets/img/rocket.gif" alt="rocket" /> -->
+
       <!--==================== HOME ====================-->
-      <section class="home section" id="home"></section>
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/kareim-gazer-482a47152/"
+                class="home__social-icon"
+                target="_blank"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a
+                href="https://github.com/KareimGazer"
+                class="home__social-icon"
+                target="_blank"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <a
+                href="https://twitter.com/KareimGazer"
+                class="home__social-icon"
+                target="_blank"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+            </div>
+            <div class="home_img">
+              <img
+                src="./assets/img/perfil.png"
+                alt="image of Kareim"
+                class="home__blob"
+              />
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Kareim</h1>
+              <h3 class="home__subtitle">Software Engineer</h3>
+              <p class="home__descriotion">
+                I'm a Software Engineer that focuses on Embedded Systems,
+                Machine Learning, and Full Stack Web Development in Agile and
+                Kanban settings. I develop Control Systems using
+                Microcontrollers like ARM-Cortex-M and AVR with RTOS using
+                C/C++. I use Python, TensorFlow, GCP, and AWS to build Machine
+                Learning models for my Embedded Systems. I'm passionate about
+                web services and APIs and I use React and Node.JS to build my
+                web apps.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me <i class="uil uil-envelope-add nav__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!--==================== ABOUT ====================-->
       <section class="about section" id="about"></section>
