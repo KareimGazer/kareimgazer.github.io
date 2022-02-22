@@ -1,251 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--==================== UNICONS ====================-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Sections</title>
+    <link rel="stylesheet" href="app.css">
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="" />
-
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="icon" href="./assets/img/logo1.png" />
-    <title>Kareim Gazer</title>
-  </head>
-  <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Kareim</a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link">
-                <i class="uil uil-home nav__icon"></i> Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#user" class="nav__link">
-                <i class="uil uil-user nav__icon"></i> User
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-trophy nav__icon"></i> Skills & Achievements
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#services" class="nav__link">
-                <i class="uil uil-briefcase nav__icon"></i> Services
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i> Portfolio
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-envelope-add nav__icon"></i> Contact Me
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
-        </div>
-        <div class="nav__btns">
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-bars"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!--==================== MAIN ====================-->
-    <main class="main">
-      <!-- <img src="./assets/img/astronot.gif" alt="astronot" />
-      <img src="./assets/img/rocket.gif" alt="rocket" /> -->
-
-      <!--==================== HOME ====================-->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
-              <a
-                href="https://www.linkedin.com/in/kareim-gazer-482a47152/"
-                class="home__social-icon"
-                target="_blank"
-              >
-                <i class="uil uil-linkedin-alt"></i>
-              </a>
-              <a
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home"></a>Home</li>
+            <li><a href="#about"></a>About</li>
+            <li><a href="#project"></a>Projects</li>
+            <li><a href="#contact"></a>Contact</li>
+        </ul>
+    </nav>
+    <header>
+        <div class="heading-links">
+            <div class="links headings">
+                <a
                 href="https://github.com/KareimGazer"
                 class="home__social-icon"
                 target="_blank"
-              >
+                >
                 <i class="uil uil-github-alt"></i>
-              </a>
-              <a
+                </a>
+                <a
+                href="https://www.linkedin.com/in/kareim-gazer-482a47152/"
+                class="home__social-icon"
+                target="_blank"
+                >
+                <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a
                 href="https://twitter.com/KareimGazer"
                 class="home__social-icon"
                 target="_blank"
-              >
+                >
                 <i class="uil uil-twitter-alt"></i>
               </a>
             </div>
-            <div class="home_img">
-              <img
-                src="./assets/img/perfil.png"
-                alt="image of Kareim"
-                class="home__blob"
-              />
-            </div>
-            <div class="home__data">
-              <h1 class="home__title">Hi, I'm Kareim</h1>
-              <h3 class="home__subtitle">Software Engineer</h3>
-              <p class="home__descriotion">
-                I'm a Software Engineer that focuses on Embedded Systems,
-                Machine Learning, and Full Stack Web Development in Agile and
-                Kanban settings. I develop Control Systems using
-                Microcontrollers like ARM-Cortex-M and AVR with RTOS using
-                C/C++. I use Python, TensorFlow, GCP, and AWS to build Machine
-                Learning models for my Embedded Systems. I'm passionate about
-                web services and APIs and I use React and Node.JS to build my
-                web apps.
-              </p>
-              <a href="#contact" class="button button--flex">
-                Contact Me <i class="uil uil-envelope-add nav__icon"></i>
-              </a>
-            </div>
-          </div>
         </div>
-      </section>
-
-      <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My Introduction</span>
-        <div class="about__container container grid">
-          <img
-            src="./assets/img/about.jpg"
-            alt="me at cairo university"
-            class="about__img"
-          />
-          <div class="about__data">
-            <p class="about__description">
-              I'm a Software Engineer that focuses on Embedded Systems, Machine
-              Learning, and Full Stack Web Development in Agile and Kanban
-              settings. I develop Control Systems using Microcontrollers like
-              ARM-Cortex-M and AVR with RTOS using C/C++. I use Python,
-              TensorFlow, GCP, and AWS to build Machine Learning models for my
-              Embedded Systems. I'm passionate about web services and APIs and I
-              use React and Node.JS to build my web apps.
+        <div class="section-item">
+            <h1>Kareim Gazer</h1>
+            <h2>Software Engineer @ Master Micro</h2>
+            <br>
+            <p>
+                I'm a Software Engineer that focuses on Embedded Systems, 
+                Machine Learning, and Full Stack Web Development in Agile and Kanban settings. 
             </p>
-            <div class="about__buttons">
-              <a
-                download=""
-                href="./assets/pdf/Karim_Tarek.pdf"
-                class="button button--flex"
-              >
-                Download resume
-                <i class="uil uil-file-download button__icon"></i>
+            <p>
+                I develop Control Systems using Microcontrollers like ARM-Cortex-M and AVR with RTOS using C/C++.
+                <br>
+                I use Python, TensorFlow, GCP, and AWS to build Machine Learning models for my Embedded Systems.
+            </p>
+            <p>
+                I'm passionate about web services and APIs and I use React and Node.JS to build my web apps.
+            </p>
+        </div>
+        <div class="section-item">
+            <img src="./resources/about.jpg" alt="">
+        </div>
+    </header>
+    <section class="features">
+        <div class="feature left">
+            <h1>Latest technologies</h1>
+            <p>AWS & GCP for the cloud, google Colab & AWS SageMaker with TensorFlow and Keras for ML, Qt & QML for app dev, and react.js & node.js for web dev. I always thrive to use the latest tech with taking risk and long time support into consideration.</p>
+        </div>
+        <div class="feature">
+            <h1>Inter-disciplinary</h1>
+            <p>As a computer Engineer I always take performance and security into considerations. I use my web experience to show my projects which otherwise could be hard for the public to understand.</p>
+        </div>
+        <div class="feature right">
+            <h1>Long History</h1>
+            <p>Currently, I'm working on the Analog Designer's Toolbox (ADT) the winner of Egypt's ITIDA TIEC Round 28th StartIT Program</p>
+            <p>Also, I have a long history of Open Source contribution, and Acadimic work.</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-item" style="padding: 0;">
+            <img src="./resources/astronot.gif" alt="">
+            <p style="font-size: small; margin: 0;">Image By East Supply.</p>
+        </div>
+      
+        <div class="section-item">
+            <p>Get a glimpse of my qualifications.</p>
+            <div class="download-button">
+                <a
+                  download=""
+                  href="./resources/Kareim_Tarek.pdf"
+                  class="download-link button"
+                >
+                  Download resume
+                  <i class="uil uil-file-download button__icon"></i>
+                </a>
+              </div>
+              <div class="attributes">
+              </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="feature left">
+            <h1>Detect Malware</h1>
+            <img class="project-img" src="./resources/malware.jpg" alt="">
+            <p>Monitor your system resources, detect malware based on bad memeory behaviour, and stop process fork bomb. Works on both Linux and Windows</p>
+            <div class="more-details"><a class="button" href=""> More Details</a></div>
+        </div>
+        <div class="feature">
+            <h1>Classify The Cifar-100 Dataset</h1>
+            <img class="project-img" src="./resources/cifar.gif" alt="">
+            <p>Classify the Cifar-100 Dataset - one of the hardest datasets to work on - using different Machine Learning and Neural Networks Methods, and compare different results to gain insights into this amazing dataset.</p>
+            <div class="more-details"><a class="button" href=""> More Details</a></div>
+        </div>
+        <div class="feature right">
+            <h1>Desmos Desktop</h1>
+            <img class="project-img" src="./resources/desmos.jpg" alt="">
+            <p>Plot any equation you like with any degree and with any variable name. don't worry of making mistakes, the program will handel them.</p>
+            <div class="more-details"><a class="button" href=""> More Details</a></div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="feature left">
+            <h1>NLP with MeaningCloud</h1>
+            <img class="project-img" src="./resources/nlp.gif" alt="">
+            <p>Explore the web and gain useful insights into websites content just by giving the url of the website you are interested in. </p>
+            <div class="more-details"><a class="button" href=""> More Details</a></div>
+        </div>
+        <div class="feature">
+            <h1>Would You Rather</h1>
+            <img class="project-img" src="./resources/rather.gif" alt="">
+            <p>Get answers to your questions, help others find their answers, and the most helpful will be the top in the leaderboard.</p>
+            <div class="more-details"><a class="button" href=""> More Details</a></div>
+        </div>
+        <div class="feature right">
+            <h1>E-Books Library</h1>
+            <img class="project-img" src="./resources/ebooks.jpg" alt="">
+            <p>Add, remove, and explore new books. make lists of book that you read or willing to read, all will be tracked and handeled.</p>
+            <div class="more-details"><a class="button" href=""> More Details</a></div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section-item">
+            <p>Get your project up and running</p>
+            <p>Contact form below</p></p>
+        </div>
+        <div class="section-item">
+            <img src="./resources/contact.jpg" alt="">
+        </div>
+    </section>
+    <footer>
+        <div class="foot-note left">
+            <h3>Qualifications</h3>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Experience</li>
+                <li>Education</li>
+                <li>Achievments</li>
+            </ul>
+        </div>
+        <div class="foot-note">
+            <h3>Work</h3>
+            <ul>
+                <li>Projects</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="foot-note right logo">
+            <div>
+                <img src="./resources/logo.svg" alt="">
+            </div>
+            <div class="links">
+                <a
+                href="https://github.com/KareimGazer"
+                class="home__social-icon"
+                target="_blank"
+                >
+                <i class="uil uil-github-alt"></i>
+                </a>
+                <a
+                href="https://www.linkedin.com/in/kareim-gazer-482a47152/"
+                class="home__social-icon"
+                target="_blank"
+                >
+                <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a
+                href="https://twitter.com/KareimGazer"
+                class="home__social-icon"
+                target="_blank"
+                >
+                <i class="uil uil-twitter-alt"></i>
               </a>
             </div>
-          </div>
         </div>
-      </section>
-
-      <!--==================== SKILLS ====================-->
-      <section class="skills section" id="skills"></section>
-
-      <!--==================== QUALIFICATION ====================-->
-      <section class="qualification section"></section>
-
-      <!--==================== SERVICES ====================-->
-      <section class="services section" id="services"></section>
-
-      <!--==================== PORTFOLIO ====================-->
-      <section class="work section" id="work">
-        <span class="section__subtitle"> My Portfolio</span>
-        <h2 class="section__title">Recent work</h2>
-        <div class="work__filter">
-          <span class="work__item active__work" data-filter="all">
-            All
-          </span><span class="work__item" data-filter=".Web">
-            Web
-          </span>
-          <span class="work__item" data-filter=".ML">
-            Machine Learning
-          </span>
-          <span class="work__item" data-filter=".Desktop">
-            Desktop
-          </span>
-          <span class="work__item" data-filter=".Security">
-            Security
-          </span>
-          <span class="work__item" data-filter=".ES">
-            Embedded Systems
-          </span>
-          <span class="work__item" data-filter="CS">
-            Computer Science
-          </span>
-        </div>
-
-        <div class="work__container container grid">
-          <div class="work__card mix Web">
-            <img src="./assets/img/portfolio1.jpg" alt="a project">
-            <h3 class="work__title">Project Name</h3>
-            <a href="" class="work_button">
-              View <i class="work_icon"></i>
-            </a>
-          </div>
-          <div class="work__card mix">
-            <img src="./assets/img/portfolio1.jpg" alt="a project">
-            <h3 class="work__title">Project Name</h3>
-            <a href="" class="work_button">
-              View <i class="work_icon"></i>
-            </a>
-          </div>
-          <div class="work__card">
-            <img src="./assets/img/portfolio1.jpg" alt="a project">
-            <h3 class="work__title">Project Name</h3>
-            <a href="" class="work_button">
-              View <i class="work_icon"></i>
-            </a>
-          </div>
-          <div class="work__card">
-            <img src="./assets/img/portfolio1.jpg" alt="a project">
-            <h3 class="work__title">Project Name</h3>
-            <a href="" class="work_button">
-              View <i class="work_icon"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== PROJECT IN MIND ====================-->
-      <section class="project section"></section>
-
-      <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section"></section>
-
-      <!--==================== CONTACT ME ====================-->
-      <section class="contact section" id="contact"></section>
-    </main>
-
-    <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
-
-    <!--==================== SCROLL TOP ====================-->
-
-    <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
-
-    <!--==================== MAIN JS ====================-->
-    <script src="./assets/js/main.js"></script>
-  </body>
+    </footer>
+</body>
 </html>
