@@ -1,0 +1,54 @@
+
+:root {
+    --pico-font-family: Pacifico, cursive;
+}
+
+.company-logo {
+    max-height: 150px;
+}
+
+.company-logo:hover {
+    transform: scale(1.05);
+}
+
+.link-logo {
+    transform: scale(1.05);
+    color: #000;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+.menu li {
+    padding: 8px 12px;
+}
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a:hover {
+    background-color: #f1f1f1;
+}
+
+.menu li i {
+    margin-right: 8px;
+    font-size: 1.5rem;
+}
