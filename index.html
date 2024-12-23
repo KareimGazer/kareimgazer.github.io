@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/design-system.css">
+    <link rel="stylesheet" href=".//css/style.css">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico:400,900|Source+Sans+Pro:400,900&display=swap"
+    rel="stylesheet">
+    <title>Kareim's</title>
+</head>
+<body>
+
+    <!-- navigation -->
+    <header class="">
+        <div class="logo">
+            <!-- avoided setting the alt atrribute on purpose as it brings to value for the logo -->
+            <a href=""><img src="./img/logo.png" alt=""></a>
+        </div>
+        <button class="burger-btn" aria-label="toggle navigation"><span class="burger-logo"></span></button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#hero" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#niche" class="nav__link">My Niche</a></li>
+                <li class="nav__item"><a href="#goodies" class="nav__link">My Goodies</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main content -->
+    <main>
+        <!-- introduction -->
+        <section class="hero" id="hero">
+            <h1 class="section__title section__title--hero"><strong>Kareim Tarek</strong></h1>
+            <p class="section__subtitle section__subtitle--hero">Seasoned Software Engineer</p>
+            <img src="./img/hero-avatar.jpg" alt="Kareim's avatar" class="hero__img">
+            <div class="hero__cta">
+                <ul class="social-list">
+                    <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-youtube"></i></a></li>
+                    <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-medium"></i></a></li>
+                    <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="companies">
+            <div class="companies__wrapper">
+                <div class="company-logo logo1"></div>
+                <div class="company-logo logo2"></div>
+                <div class="company-logo logo3"></div>
+                <div class="company-logo logo4"></div>
+                <div class="company-logo logo5"></div>
+
+            </div>
+        </section>
+
+        <!-- niche -->
+        <section class="niche" id="niche">
+            <h2 class="section__title section__title--niche">My Niche</h2>
+            <div class="niche__body">
+                <div class="niche__item">
+                    <h3 class="niche__title">Networks</h3>
+                    <p class="niche__para">gRPC, GraphQL, REST, WebSockets as web protocols, and kafaka & NATS as message brokers.</p>
+                </div>
+                <div class="niche__item">
+                    <h3 class="niche__title">Infrastructure</h3>
+                    <p class="niche__para">Docker, Kubernetes, and Knative as platforms for microservices.</p>
+                </div>
+                <div class="niche__item">
+                    <h3 class="niche__title">Software Engineering</h3>
+                    <p class="niche__para">Linkerd, and Istio as service meshes. CRDs, and Helm for deployment and management.</p>
+                </div>
+            </div>
+            <a href="#goodies" class="btn" >My Goodies</a>
+        </section>
+
+        <!-- about -->
+        <section class="about" id="about">
+            <h2 class="section__title section__title--about">It's Kareim, Folks!</h2>
+            <p class="section__subtitle section__subtitle--about">Software Craftsman</p>
+            <div class="about__body">
+                <p>Hi, I'm Kareim Gazer, a self-taught frontend developer based in Cairo, Egypt.</p>
+                <p>I have a passion for web development and love to create websites that are both beautiful and functional. I have
+                experience with HTML, CSS, JavaScript, and React, and I'm always looking to learn new technologies and improve my
+                skills. When I'm not coding, you can find me reading, playing video games, or watching movies. If you're looking for a
+                developer who is dedicated, creative, and loves a good challenge, I'd love to work with you!</p>
+            </div>
+            <img src="./img/about-avatar.jpg" alt="Kareim's about avatar'" class="about__img">
+        </section>
+
+        <!-- goodies -->
+        <section class="goodies" id="goodies">
+            <h2 class="section__title section__title--goodies">My Goodies</h2>
+            <div class="goodies__body">
+                <div class="goodies__item">
+                    <div class="goodies__img-container">
+                        <img src="./img/pstack.jpg" alt="goodies 1" class="goodies__img">
+                    </div>
+                    <div class="goodies__content">
+                        <h3>Project 1</h3>
+                        <p>Project description goes here</p>
+                        <div class="goodies__cta">
+                            <a href="" class="goodies__btn"> See In Action</a>
+                            <a href="#" class="goodies__btn">See Source</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="goodies__item">
+                    <div class="goodies__img-container">
+                        <img src="./img/polls.png" alt="goodies 1" class="goodies__img">
+                    </div>
+                    <div class="goodies__content">
+                        <h3>Project 1</h3>
+                        <p>Project description goes here</p>
+                        <div class="goodies__cta">
+                            <a href="" class="goodies__btn"> See In Action</a>
+                            <a href="#" class="goodies__btn">See Source</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="goodies__item">
+                    <div class="goodies__img-container">
+                        <img src="./img/malware.jpg" alt="goodies 1" class="goodies__img">
+                    </div>
+                    <div class="goodies__content">
+                        <h3>Project 1</h3>
+                        <p>Project description goes here</p>
+                        <div class="goodies__cta">
+                            <a href="" class="goodies__btn"> See In Action</a>
+                            <a href="#" class="goodies__btn">See Source</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="goodies__item">
+                    <div class="goodies__img-container">
+                        <img src="./img/cifar.jpg" alt="goodies 1" class="goodies__img">
+                    </div>
+                    <div class="goodies__content">
+                        <h3>Project 1</h3>
+                        <p>Project description goes here</p>
+                        <div class="goodies__cta">
+                            <a href="" class="goodies__btn"> See In Action</a>
+                            <a href="#" class="goodies__btn">See Source</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="goodies__item">
+                    <div class="goodies__img-container">
+                        <img src="./img/ebooks.jpg" alt="goodies 1" class="goodies__img">
+                    </div>
+                    <div class="goodies__content">
+                        <h3>Project 1</h3>
+                        <p>Project description goes here</p>
+                        <div class="goodies__cta">
+                            <a href="" class="goodies__btn"> See In Action</a>
+                            <a href="#" class="goodies__btn">See Source</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="goodies__item">
+                    <div class="goodies__img-container">
+                        <img src="./img/desmos.png" alt="goodies 1" class="goodies__img">
+                    </div>
+                    <div class="goodies__content">
+                        <h3>Project 1</h3>
+                        <p>Project description goes here</p>
+                        <div class="goodies__cta">
+                            <a href="" class="goodies__btn"> See In Action</a>
+                            <a href="#" class="goodies__btn">See Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More!</a>
+        </section>
+    </main>
+
+    <!-- contact -->
+    <footer class="footer" id="footer">
+        <div class="footer__body">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,
+                                    250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,
+                                    3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="footer__wave">
+                </path>
+            </svg>
+            <div class="footer__content">
+                <div class="footer__group">
+                    <h3 class="footer__group__title">Kareim Tarek</h3>
+                    <p class="footer__para">AI Software Engineer.</p>
+                    <p class="footer__para">
+                        This site is fully developed by me with just plain HTML, CSS, and JavaScript.
+                    </p>
+                </div>
+    
+                <div class="footer__group">
+                    <h3 class="footer__group__title">General</h3>
+                    <ul class="">
+                        <li class="footer__item"><a href="">Blog</a></li>
+                        <li class="footer__item"><a href="">LeetCode</a></li>
+                        <li class="footer__item"><a href="">DockerHub</a></li>
+                        <li class="footer__item"><a href="">HuggingFace</a></li>
+                        <li class="footer__item"><a href="">Kaggle</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__group">
+                    <h3 class="footer__group__title">Profile</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="">LinkedIn</a></li>
+                        <li class="footer__item"><a href="">GitHub</a></li>
+                        <li class="footer__item"><a href="">Medium</a></li>
+                        <li class="footer__item"><a href="">Twitter</a></li>
+                        <li class="footer__item"><a href="">YouTube</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__group">
+                    <h3 class="footer__group__title">Contact</h3>
+                    <ul class="social-list footer__list">
+                        <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-youtube"></i></a></li>
+                        <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+                        <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-medium"></i></a></li>
+                        <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copy-right">&copy; 2024 Kareim Tarek. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

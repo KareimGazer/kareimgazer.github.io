@@ -1,0 +1,58 @@
+/* colors & fonts */
+
+/* Custom Properties, design system specific*/
+/* avoided setting font-size as the user may set a custom one */
+:root {
+    --clr-light: #fff;
+    --clr-dark: #0a0a26;
+    --clr-accent: #eb4b9d;
+    
+    --ff-primary: 'Pacifico', serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 400;
+    --fw-bold: 900;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
+            0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
+}
+
+/* 800 */
+@media (min-width: 950px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+/* Typography */
+
+strong {
+    font-weight: var(--fw-bold)
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    font-weight: var(--fw-reg)
+}
+
+h1 {
+    font-size: var(--fs-h1)
+}
+
+h2 {
+    font-size: var(--fs-h2)
+}
+
+h3 {
+    font-size: var(--fs-h3)
+}

@@ -1,0 +1,92 @@
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* inspired by */
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+/* https: //www.joshwcomeau.com/css/custom-css-reset/ */
+/* Kevin Powell CSS reset */
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+    margin: 0;
+}
+
+/* set up the body */
+body {
+    /* 3. Add accessible line-height */
+    line-height: 1.6;
+
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+
+    min-height: 100vh;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* assuming react as the top-level element is a `<div id="root">` */
+/* #root, #__next {
+    isolation: isolate;
+} */
