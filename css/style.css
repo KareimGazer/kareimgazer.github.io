@@ -382,9 +382,14 @@ section {
 @media (min-width: 800px) {
     .niche__body {
         display: flex;
+        justify-content: center;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .niche__item {
+        flex: 1 1 0px;
     }
 
     .niche__item + .niche__item {
