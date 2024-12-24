@@ -24,16 +24,16 @@
     <header class="">
         <div class="logo">
             <!-- avoided setting the alt atrribute on purpose as it brings to value for the logo -->
-            <a href=""><img src="./img/logo.png" alt=""></a>
+            <a href="https://kareimgazer.github.io/"><img src="./img/logo.png" alt=""></a>
         </div>
         <button class="burger-btn" aria-label="toggle navigation"><span class="burger-logo"></span></button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#hero" class="nav__link">Blog</a></li>
+                <li class="nav__item"><a href="https://kareimgazer.github.io/blog/" class="nav__link">Blog</a></li>
                 <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
                 <li class="nav__item"><a href="#niche" class="nav__link">My Niche</a></li>
                 <li class="nav__item"><a href="#goodies" class="nav__link">My Goodies</a></li>
-                <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+                <li class="nav__item"><a href="#footer" class="nav__link">Contact Me</a></li>
             </ul>
         </nav>
     </header>
@@ -47,11 +47,11 @@
             <img src="./img/hero-avatar.jpg" alt="Kareim's avatar" class="hero__img">
             <div class="hero__cta">
                 <ul class="social-list">
-                    <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-youtube"></i></a></li>
-                    <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
-                    <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-medium"></i></a></li>
-                    <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
-                    <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-github"></i></a></li>
+                    <li class="social-list__item"><a href="https://www.youtube.com/@KareemKreates" class="social-list__link" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li class="social-list__item"><a href="https://x.com/KareimGazer" class="social-list__link" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-list__item"><a href="https://medium.com/@kareimtarek1972" class="social-list__link" target="_blank"><i class="fab fa-medium"></i></a></li>
+                    <li class="social-list__item"><a href="https://www.linkedin.com/in/kareimgazer/" class="social-list__link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="social-list__item"><a href="https://github.com/KareimGazer" class="social-list__link" target="_blank"><i class="fab fa-github"></i></a></li>
                 </ul>
             </div>
         </section>
@@ -93,10 +93,13 @@
             <p class="section__subtitle section__subtitle--about">Software Craftsman</p>
             <div class="about__body">
                 <p>Hi, I'm Kareim Gazer, a self-taught frontend developer based in Cairo, Egypt.</p>
-                <p>I have a passion for web development and love to create websites that are both beautiful and functional. I have
-                experience with HTML, CSS, JavaScript, and React, and I'm always looking to learn new technologies and improve my
-                skills. When I'm not coding, you can find me reading, playing video games, or watching movies. If you're looking for a
-                developer who is dedicated, creative, and loves a good challenge, I'd love to work with you!</p>
+                <p>I'm an AI Software Engineer who works in Agile and Kanban settings. I regularly blog on <a class="about__link" href="">Medium</a>. I use C/C++, GPUs, Python, and the Cloud to build my applications.
+
+                    I hold a BSc degree in computer engineering and systems design from Ain Shams University. This is where I studied AI, Software Engineering, Image Processing, Computer Architecture, Operating Systems, Embedded Systems, and Computer Networks.
+                    
+                    I'm an entrepreneur at heart and passionate about machine learning applications and what generative AI can do.
+                    
+                    I have 2+ years of tutoring experience at <a class="about__link" href="https://www.udacity.com/">Udacity</a>, guiding many people in building their machine-learning projects using AWS. I believe that the ability to understand visual content paired with LLMs will open new frontiers in digital media.</p>
             </div>
             <img src="./img/about-avatar.jpg" alt="Kareim's about avatar'" class="about__img">
         </section>
@@ -105,86 +108,80 @@
         <section class="goodies" id="goodies">
             <h2 class="section__title section__title--goodies">My Goodies</h2>
             <div class="goodies__body">
+
                 <div class="goodies__item">
                     <div class="goodies__img-container">
-                        <img src="./img/pstack.jpg" alt="goodies 1" class="goodies__img">
+                        <img src="./img/pstack.jpg" alt="car detecting lanes and other cars" class="goodies__img">
                     </div>
-                    <div class="goodies__content">
-                        <h3>Project 1</h3>
-                        <p>Project description goes here</p>
-                        <div class="goodies__cta">
-                            <a href="" class="goodies__btn"> See In Action</a>
-                            <a href="#" class="goodies__btn">See Source</a>
-                        </div>
+                    <h3 class="goodies__title">Perception Stack</h3>
+                    <p class="goodies__desc">A system to detect lane lines and cars for self-driving cars.</p>
+                    <div class="goodies__cta">
+                        <a href="https://kareimgazer.github.io/" class="goodies__btn"> See In Action</a>
+                        <a href="https://github.com/KareimGazer/Perception-Stack" class="goodies__btn">See Source</a>
                     </div>
                 </div>
+
                 <div class="goodies__item">
                     <div class="goodies__img-container">
-                        <img src="./img/polls.png" alt="goodies 1" class="goodies__img">
+                        <img src="./img/weather-app.jpg" alt="weather application" class="goodies__img">
                     </div>
-                    <div class="goodies__content">
-                        <h3>Project 1</h3>
-                        <p>Project description goes here</p>
-                        <div class="goodies__cta">
-                            <a href="" class="goodies__btn"> See In Action</a>
-                            <a href="#" class="goodies__btn">See Source</a>
-                        </div>
+                    <h3 class="goodies__title">A-Eggaw</h3>
+                    <p class="goodies__desc">single page application for instant weather forecasting and historical trends across the world</p>
+                    <div class="goodies__cta">
+                        <a href="https://a-eggaw.fly.dev/" class="goodies__btn"> See In Action</a>
+                        <a href="https://github.com/KareimGazer/A-Eggaw" class="goodies__btn">See Source</a>
                     </div>
                 </div>
+
                 <div class="goodies__item">
                     <div class="goodies__img-container">
-                        <img src="./img/malware.jpg" alt="goodies 1" class="goodies__img">
+                        <img src="./img/malware.jpg" alt="Malware-Detector" class="goodies__img">
                     </div>
-                    <div class="goodies__content">
-                        <h3>Project 1</h3>
-                        <p>Project description goes here</p>
+                        <h3 class="goodies__title">Malware-Detector</h3>
+                        <p class="goodies__desc">An antivirus system to monitor the system, detect, and quarantine fork bombs and malware with malicious memory behavior.</p>
                         <div class="goodies__cta">
-                            <a href="" class="goodies__btn"> See In Action</a>
-                            <a href="#" class="goodies__btn">See Source</a>
+                            <a href="https://github.com/KareimGazer/Malware-Detector-Repeat" class="goodies__btn"> See In Action</a>
+                            <a href="https://github.com/KareimGazer/Malware-Detector-Repeat" class="goodies__btn">See Source</a>
                         </div>
+                </div>
+
+                <div class="goodies__item">
+                    <div class="goodies__img-container">
+                        <img src="./img/cifar.jpg" alt="Object detection algorithm" class="goodies__img">
+                    </div>
+                    <h3 class="goodies__title">Cifar-100</h3>
+                    <p class="goodies__desc">Classifying images from the CIFAR-100 dataset using two approaches: Convloutional Neural Networks and classical Supprot Vector Machines.</p>
+                    <div class="goodies__cta">
+                        <a href="" class="goodies__btn"> See In Action</a>
+                        <a href="#" class="goodies__btn">See Source</a>
                     </div>
                 </div>
+
                 <div class="goodies__item">
                     <div class="goodies__img-container">
-                        <img src="./img/cifar.jpg" alt="goodies 1" class="goodies__img">
+                        <img src="./img/ebooks.jpg" alt="E-book library" class="goodies__img">
                     </div>
-                    <div class="goodies__content">
-                        <h3>Project 1</h3>
-                        <p>Project description goes here</p>
-                        <div class="goodies__cta">
-                            <a href="" class="goodies__btn"> See In Action</a>
-                            <a href="#" class="goodies__btn">See Source</a>
-                        </div>
+                    <h3 class="goodies__title">E-books Library</h3>
+                    <p class="goodies__desc">A Books Library site with an interactive UI. Users can search, add, and delete new books.</p>
+                    <div class="goodies__cta">
+                        <a href="https://kisho-reads.fly.dev/" class="goodies__btn"> See In Action</a>
+                        <a href="https://github.com/KareimGazer/E-Books-Library" class="goodies__btn">See Source</a>
                     </div>
                 </div>
+
                 <div class="goodies__item">
                     <div class="goodies__img-container">
-                        <img src="./img/ebooks.jpg" alt="goodies 1" class="goodies__img">
+                        <img src="./img/polls.png" alt="Would You Rather app" class="goodies__img">
                     </div>
-                    <div class="goodies__content">
-                        <h3>Project 1</h3>
-                        <p>Project description goes here</p>
-                        <div class="goodies__cta">
-                            <a href="" class="goodies__btn"> See In Action</a>
-                            <a href="#" class="goodies__btn">See Source</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="goodies__item">
-                    <div class="goodies__img-container">
-                        <img src="./img/desmos.png" alt="goodies 1" class="goodies__img">
-                    </div>
-                    <div class="goodies__content">
-                        <h3>Project 1</h3>
-                        <p>Project description goes here</p>
-                        <div class="goodies__cta">
-                            <a href="" class="goodies__btn"> See In Action</a>
-                            <a href="#" class="goodies__btn">See Source</a>
-                        </div>
+                    <h3 class="goodies__title">Would You Rather</h3>
+                    <p class="goodies__desc">A website where users can create polls, vote, and view results after submission</p>
+                    <div class="goodies__cta">
+                        <a href="https://kisho-polls.fly.dev/" class="goodies__btn"> See In Action</a>
+                        <a href="https://github.com/KareimGazer/would-you-rather" class="goodies__btn">See Source</a>
                     </div>
                 </div>
             </div>
-            <a href="" class="btn">See More!</a>
+            <a href="https://github.com/KareimGazer" class="btn">See More!</a>
         </section>
     </main>
 
@@ -210,33 +207,33 @@
                 <div class="footer__group">
                     <h3 class="footer__group__title">General</h3>
                     <ul class="">
-                        <li class="footer__item"><a href="">Blog</a></li>
-                        <li class="footer__item"><a href="">LeetCode</a></li>
-                        <li class="footer__item"><a href="">DockerHub</a></li>
-                        <li class="footer__item"><a href="">HuggingFace</a></li>
-                        <li class="footer__item"><a href="">Kaggle</a></li>
+                        <li class="footer__item"><a href="https://kareimgazer.github.io/blog/">Blog</a></li>
+                        <li class="footer__item"><a href="https://bsky.app/profile/kareimgazer.bsky.social">BlueSky</a></li>
+                        <li class="footer__item"><a href="https://leetcode.com/u/KareimGazer/">LeetCode</a></li>
+                        <li class="footer__item"><a href="https://www.npmjs.com/settings/kareimgazer/packages">NPM</a></li>
+                        <li class="footer__item"><a href="https://hub.docker.com/repositories/1701002">DockerHub</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__group">
                     <h3 class="footer__group__title">Profile</h3>
                     <ul class="footer__list">
-                        <li class="footer__item"><a href="">LinkedIn</a></li>
-                        <li class="footer__item"><a href="">GitHub</a></li>
-                        <li class="footer__item"><a href="">Medium</a></li>
-                        <li class="footer__item"><a href="">Twitter</a></li>
-                        <li class="footer__item"><a href="">YouTube</a></li>
+                        <li class="footer__item"><a href="https://www.linkedin.com/in/kareimgazer/">LinkedIn</a></li>
+                        <li class="footer__item"><a href="https://github.com/KareimGazer">GitHub</a></li>
+                        <li class="footer__item"><a href="https://medium.com/@kareimtarek1972">Medium</a></li>
+                        <li class="footer__item"><a href="https://x.com/KareimGazer">Twitter</a></li>
+                        <li class="footer__item"><a href="https://www.youtube.com/@KareemKreates">YouTube</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__group">
                     <h3 class="footer__group__title">Contact</h3>
                     <ul class="social-list footer__list">
-                        <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-youtube"></i></a></li>
-                        <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
-                        <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-medium"></i></a></li>
-                        <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
-                        <li class="social-list__item"><a href="#" class="social-list__link"><i class="fab fa-github"></i></a></li>
+                        <li class="social-list__item"><a href="https://www.youtube.com/@KareemKreates" class="social-list__link"><i class="fab fa-youtube"></i></a></li>
+                        <li class="social-list__item"><a href="https://x.com/KareimGazer" class="social-list__link"><i class="fab fa-twitter"></i></a></li>
+                        <li class="social-list__item"><a href="https://medium.com/@kareimtarek1972" class="social-list__link"><i class="fab fa-medium"></i></a></li>
+                        <li class="social-list__item"><a href="https://www.linkedin.com/in/kareimgazer/" class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="social-list__item"><a href="https://github.com/KareimGazer" class="social-list__link"><i class="fab fa-github"></i></a></li>
                     </ul>
                 </div>
             </div>
