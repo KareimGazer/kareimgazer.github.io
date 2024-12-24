@@ -513,6 +513,7 @@ section {
 
 .goodies__title {
     margin: 0.5em 0;
+    color: var(--clr-accent);
 }
 
 .goodies__item {
