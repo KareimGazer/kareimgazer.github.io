@@ -74,7 +74,7 @@ h6 {
 }
 
 /* remove animations for people who've turned them off */
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
 
     *,
     *::before,
@@ -84,7 +84,7 @@ h6 {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
-}
+} */
 
 /* assuming react as the top-level element is a `<div id="root">` */
 /* #root, #__next {
