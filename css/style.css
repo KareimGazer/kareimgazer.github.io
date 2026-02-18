@@ -309,17 +309,17 @@ section {
 
 .logo1 {
     animation-delay: calc(25s / 5 * (5 - 1) * -1);
-    background-image: url('../img/logos/amazon.svg');
+    background-image: url('../img/logos/MM.png');
 }
 
 .logo2 {
     animation-delay: calc(25s / 5 * (5 - 2) * -1);
-    background-image: url('../img/logos/cncfio.svg');
+    background-image: url('../img/logos/siemens.svg');
 }
 
 .logo3 {
     animation-delay: calc(25s / 5 * (5 - 3) * -1);
-    background-image: url('../img/logos/siemens.svg');
+    background-image: url('../img/logos/udacity.svg');
 }
 
 .logo4 {
@@ -331,7 +331,7 @@ section {
 
 .logo5 {
     animation-delay: calc(25s / 5 * (5 - 5) * -1);
-    background-image: url('../img/logos/udacity.svg');
+    background-image: url('../img/logos/cncfio.svg');
 }
 
 
